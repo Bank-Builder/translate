@@ -9,7 +9,7 @@ git clone git@github.com:Bank-Builder/translate.git
 sudo cp translate/translate.sh  /usr/bin/translate
 sudo chmod +x /usr/bin/translate
 rm -rf translate/
-bind '"\e[24~":"translate"'
+bind '"\e[24~":"translate\n"'
 sudo apt install suckless-tools
 ```
 
